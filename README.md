@@ -48,7 +48,7 @@ The datasets are not included. Download these two Kaggle releases:
 | `archive.zip` | 139,133,481 bytes | 18,866,250 bytes |
 | SHA-256 | `48eb5c6fa58f5e452caa8a95858a4ac0d3c0edbf7a3adb326c515a14f686f4ee` | `9e3aa7431afc7ea53a4411e16ec0d6613f29402e4da9b25e17f7812fafb3d0b5` |
 
-Use the Download button on each dataset's Kaggle page. Alternatively, Kaggle's download endpoint (it needed no sign-in on 5 November 2026):
+Use the Download button on each dataset's Kaggle page. Alternatively, Kaggle's download endpoint:
 
 ```
 curl -L -o d1_archive.zip "https://www.kaggle.com/api/v1/datasets/download/ahmedsorour1/mri-for-brain-tumor-with-bounding-boxes?datasetVersionNumber=1"
