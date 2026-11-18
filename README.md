@@ -1,6 +1,6 @@
 # TRACE-Fed
 
-Code for the manuscript *TRACE-Fed: Communication-Efficient, Adapter-Based Federated Learning with Trust-Weighted Aggregation for Brain Tumour MRI*.
+TRACE-Fed: Communication-Efficient, Adapter-Based Federated Learning with Trust-Weighted Aggregation for Brain Tumour MRI.
 
 In TRACE-Fed, the clients of a federation keep an ImageNet-pretrained ConvNeXt-T backbone frozen. They train only low-rank (LoRA) adapters and the layers that TRACE-Net adds on top of the backbone, and exchange only these parameters. The updates are compressed in both directions (top-k sparsification and 8-bit quantisation with error feedback), and the server aggregates them with a discount-only trust rule.
 
